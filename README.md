@@ -2,6 +2,7 @@
 
 ![Propra Banner](./public/propra.jpeg)
 
+
 **La gestion immobilière réinventée.**
 
 [![React](https://img.shields.io/badge/React-19-61dafb?style=flat-square&logo=react&logoColor=white)](https://react.dev)
@@ -9,8 +10,9 @@
 [![Node](https://img.shields.io/badge/Node.js-22+-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org)
 [![License](https://img.shields.io/badge/License-MIT-2dd4bf?style=flat-square)](./LICENSE)
 [![Status](https://img.shields.io/badge/Status-Beta-f97316?style=flat-square)]()
+[![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)](https://propra-delta.vercel.app)
 
-[Démo live](#) · [Signaler un bug](../../issues) · [Proposer une feature](../../issues)
+[🌐 Landing page](https://propra-delta.vercel.app) · [🚀 Voir l'application](https://propra-delta.vercel.app/app/) · [🐛 Signaler un bug](../../issues) · [💡 Proposer une feature](../../issues)
 
 </div>
 
@@ -122,17 +124,19 @@ Toutes les animations sont implémentées directement dans le code, sans dépend
 
 ---
 
-## Déploiement sur Vercel
+## Déploiement
+
+L'application est déployée en production sur Vercel :
+
+| | URL |
+|---|---|
+| 🌐 **Landing page** | [propra-delta.vercel.app](https://propra-delta.vercel.app) |
+| 🚀 **Application** | [propra-delta.vercel.app/app/](https://propra-delta.vercel.app/app/) |
+
+Chaque `git push` sur `main` déclenche un redéploiement automatique.
 
 ```bash
-# Connecte ton repo GitHub à vercel.com
-# Vercel détecte Vite automatiquement
-# Chaque git push → redéploiement automatique
-```
-
-Ou en une commande avec la CLI :
-
-```bash
+# Déployer manuellement avec la CLI
 npm i -g vercel
 vercel --prod
 ```
@@ -167,5 +171,3 @@ Les contributions sont les bienvenues ! Pour proposer une amélioration :
 ## Licence
 
 Distribué sous licence **MIT**. Voir [LICENSE](./LICENSE) pour plus d'informations.
-
----
