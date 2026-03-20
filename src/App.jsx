@@ -162,10 +162,6 @@ function Sidebar({ active, setActive }) {
       <div style={{ padding: "0 20px 32px" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
           <img src="src/assets/logo-propra.png" alt="Propra logo" style={{ width: 36, height: 36, borderRadius: 10, objectFit: "cover" }} />
-          <div>
-            <div style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 700, fontSize: 18, color: "#fff", letterSpacing: 1 }}>Propra</div>
-            <div style={{ fontSize: 10, color: ACCENT, letterSpacing: 2, textTransform: "uppercase" }}>Pro</div>
-          </div>
         </div>
       </div>
       <nav style={{ flex: 1 }}>
