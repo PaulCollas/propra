@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from "react";
+import logoSrc from "./assets/logo-propra.png";
 
 /* ─── ReactBits-inspired animations (inline implementations) ─── */
 
@@ -161,7 +162,7 @@ function Sidebar({ active, setActive }) {
     <aside style={{ width: 220, background: "#0a0f1e", borderRight: "1px solid #1e2a3a", display: "flex", flexDirection: "column", padding: "24px 0", flexShrink: 0 }}>
       <div style={{ padding: "0 20px 32px" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-          <img src="src/assets/logo-propra.png" alt="Propra logo" style={{ width: 36, height: 36, borderRadius: 10, objectFit: "cover" }} />
+          <img src={logoSrc} alt="Propra logo" style={{ width: 100, objectFit: "cover" }} />
         </div>
       </div>
       <nav style={{ flex: 1 }}>
